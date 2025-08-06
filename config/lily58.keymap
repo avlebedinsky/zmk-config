@@ -21,11 +21,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC           &lt 1 NUMBER_1  &lt 2 NUMBER_2  &lt 3 NUMBER_3  &lt 4 NUMBER_4  &lt 5 N5                        &kp N6  &kp N7         &kp N8         &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB           &kp Q           &kp W           &kp E           &kp R           &kp T                           &kp Y   &kp U          &kp I          &kp O    &kp P     &kp LEFT_BRACKET
-&kp LEFT_SHIFT    &kp A           &kp S           &kp D           &kp F           &kp G                           &kp H   &kp J          &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z           &kp X           &kp C           &kp V           &kp B     &mo 3        &mo 4    &kp N   &kp M          &kp COMMA      &kp DOT  &kp FSLH  &kp RSHFT
-                                                  &kp LEFT_ALT    &kp LGUI        &mo 2     &kp SPACE    &kp RET  &mo 1   &kp RIGHT_GUI  &kp RIGHT_ALT
+&kp ESC           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                        &kp N6  &kp N7         &kp N8         &kp N9   &kp N0    &kp BACKSPACE
+&kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T                         &kp Y   &kp U          &kp I          &kp O    &kp P     &kp LEFT_BRACKET
+&kp LEFT_SHIFT    &kp A         &kp S         &kp D         &kp F         &kp G                         &kp H   &kp J          &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V         &kp B   &mo 6        &mo 4    &kp N   &kp M          &kp COMMA      &kp DOT  &kp FSLH  &kp RSHFT
+                                              &kp LEFT_ALT  &kp LGUI      &mo 2   &kp SPACE    &kp RET  &mo 1   &kp RIGHT_GUI  &kp RIGHT_ALT
             >;
         };
 
@@ -90,6 +90,16 @@
 &kp LEFT_SHIFT    &trans  &kp A         &kp S         &kp D         &kp F                                 &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
 &kp LEFT_CONTROL  &trans  &kp Z         &kp X         &kp C         &kp V         &trans       &trans     &trans    &trans    &trans        &trans     &trans  &tog 5
                                         &kp B         &kp G         &kp LEFT_ALT  &kp SPACE    &kp GRAVE  &trans    &trans    &trans
+            >;
+        };
+
+        layers {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &to 4   &to 5   &to 6   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &to 1   &to 2   &to 3   &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
