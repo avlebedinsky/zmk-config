@@ -21,11 +21,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                   &kp N6  &kp N7         &kp N8         &kp N9   &kp N0    &kp RIGHT_BRACKET
-&kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T                                    &kp Y   &kp U          &kp I          &kp O    &kp P     &kp LEFT_BRACKET
-&kp LEFT_SHIFT    &kp A         &kp S         &kp D         &kp F         &kp G                                    &kp H   &kp J          &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V         &kp B   &lt 6 DELETE    &lt 4 BACKSPACE  &kp N   &kp M          &kp COMMA      &kp DOT  &kp FSLH  &kp RSHFT
-                                              &kp LEFT_ALT  &kp LGUI      &mo 2   &kp SPACE       &kp RET          &mo 1   &kp RIGHT_GUI  &kp RIGHT_ALT
+&kp ESC           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                &kp N6  &kp N7         &kp N8         &kp N9   &kp N0    &kp RIGHT_BRACKET
+&kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T                                 &kp Y   &kp U          &kp I          &kp O    &kp P     &kp LEFT_BRACKET
+&kp LEFT_SHIFT    &kp A         &kp S         &kp D         &kp F         &kp G                                 &kp H   &kp J          &kp K          &kp L    &kp SEMI  &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V         &kp B   &lt 6 LA(SPACE)    &lt 4 SQT  &kp N   &kp M          &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
+                                              &kp LEFT_ALT  &kp LGUI      &mo 2   &kp SPACE          &kp RET    &mo 1   &kp RIGHT_GUI  &kp RIGHT_ALT
             >;
         };
 
@@ -38,11 +38,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp GRAVE    &kp COMMA       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp QUESTION                       &trans  &trans            &trans             &trans         &trans         &trans
-&kp AT_SIGN  &kp LEFT_BRACE  &kp DOUBLE_QUOTES     &kp SQT                &kp RIGHT_BRACE   &kp DOT                            &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans         &trans
-&kp HASH     &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp ASTERISK                       &trans  &kp RIGHT_SHIFT   &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
-&kp EXCL     &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp SLASH     &kp PRCNT    &trans  &trans  &trans            &trans             &trans         &trans         &trans
-                                                   &kp AMPS               &kp PLUS          &kp SLASH     &kp COLON    &trans  &trans  &trans            &trans
+&kp GRAVE    &kp COMMA       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp QUESTION                               &trans  &trans            &trans             &trans         &trans         &trans
+&kp AT_SIGN  &kp LEFT_BRACE  &kp DOUBLE_QUOTES     &kp SQT                &kp RIGHT_BRACE   &kp DOT                                    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans         &trans
+&kp HASH     &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp ASTERISK                               &trans  &kp RIGHT_SHIFT   &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
+&kp EXCL     &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp SLASH             &kp PRCNT    &trans  &trans  &trans            &trans             &trans         &trans         &trans
+                                                   &kp AMPS               &kp PLUS          &kp NON_US_BACKSLASH  &kp COLON    &trans  &trans  &trans            &trans
             >;
         };
 
@@ -56,20 +56,20 @@
 
             bindings = <
 &trans  &trans        &trans        &trans            &trans          &trans                    &trans         &trans       &trans         &trans     &trans     &kp PRINTSCREEN
-&trans  &trans        &trans        &trans            &trans          &trans                    &kp BACKSPACE  &kp DELETE   &kp LC(Z)      &kp LC(Y)  &kp LC(X)  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                    &kp LEFT       &kp DOWN     &kp UP_ARROW   &kp RIGHT  &kp LC(C)  &trans
-&trans  &trans        &trans        &trans            &trans          &trans  &trans    &trans  &kp HOME       &kp PAGE_UP  &kp PAGE_DOWN  &kp END    &kp LC(V)  &kp LG(V)
+&trans  &trans        &trans        &trans            &trans          &trans                    &kp BACKSPACE  &kp DELETE   &kp LC(Z)      &kp LC(Y)  &kp LC(X)  &kp LG(LC(LEFT))
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                    &kp LEFT       &kp DOWN     &kp UP_ARROW   &kp RIGHT  &kp LC(C)  &kp LC(LG(RIGHT))
+&trans  &trans        &trans        &trans            &trans          &trans  &trans    &trans  &kp HOME       &kp PAGE_UP  &kp PAGE_DOWN  &kp END    &kp LC(V)  &kp LA(F4)
                                     &trans            &trans          &trans  &trans    &trans  &trans         &trans       &trans
             >;
         };
 
         number {
             bindings = <
-&trans  &trans        &trans        &trans                &trans                 &trans                    &kp TILDE     &kp CARET  &kp HASH   &kp DOLLAR  &kp AT_SIGN  &kp EXCLAMATION
-&trans  &trans        &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                    &kp PRCNT     &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp COLON    &kp LESS_THAN
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL      &kp LEFT_SHIFT         &trans                    &kp PLUS      &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp MINUS    &kp GREATER_THAN
-&trans  &trans        &trans        &trans                &trans                 &trans  &trans    &trans  &kp ASTERISK  &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp SLASH    &kp EQUAL
-                                    &trans                &trans                 &trans  &trans    &trans  &kp KP_N0     &trans     &trans
+&trans  &trans        &trans        &trans                &trans                 &trans                    &kp TILDE     &kp CARET     &kp HASH      &kp DOLLAR    &kp AT_SIGN  &kp EXCLAMATION
+&trans  &trans        &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                    &kp PRCNT     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COLON    &kp LESS_THAN
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL      &kp LEFT_SHIFT         &trans                    &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS    &kp GREATER_THAN
+&trans  &trans        &trans        &trans                &trans                 &trans  &trans    &trans  &kp ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH    &kp EQUAL
+                                    &trans                &trans                 &trans  &trans    &trans  &kp NUMBER_0  &trans        &trans
             >;
         };
 
@@ -83,23 +83,23 @@
             >;
         };
 
-        game {
+        hd-2 {
             bindings = <
 &trans            &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                          &kp O     &trans    &trans        &trans     &trans  &trans
 &kp TAB           &trans  &kp Q         &kp W         &kp E         &kp R                                 &trans    &trans    &trans        &trans     &trans  &trans
 &kp LEFT_SHIFT    &trans  &kp A         &kp S         &kp D         &kp F                                 &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&kp LEFT_CONTROL  &trans  &kp Z         &kp X         &kp C         &kp V         &trans       &trans     &trans    &trans    &trans        &trans     &trans  &trans
+&kp LEFT_CONTROL  &trans  &kp Z         &kp X         &kp C         &kp V         &kp V        &trans     &trans    &trans    &trans        &trans     &trans  &trans
                                         &kp B         &kp G         &kp LEFT_ALT  &kp SPACE    &kp GRAVE  &trans    &trans    &trans
             >;
         };
 
         controls {
             bindings = <
-&studio_unlock  &trans        &trans        &trans            &trans          &trans                    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4
-&trans          &trans        &trans        &trans            &trans          &trans                    &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT
-&trans          &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                    &trans      &to 4         &to 5         &to 6         &trans            &trans
-&trans          &trans        &trans        &trans            &trans          &trans  &trans    &trans  &to 0       &to 1         &to 2         &to 3         &trans            &trans
-                                            &trans            &trans          &trans  &trans    &trans  &trans      &trans        &trans
+&studio_unlock  &trans        &trans        &trans            &trans          &trans                    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4
+&trans          &trans        &trans        &trans            &trans          &trans                    &trans      &trans        &trans        &trans        &kp C_MUTE         &kp C_PREVIOUS
+&trans          &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                    &trans      &to 4         &to 5         &to 6         &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE
+&trans          &trans        &trans        &trans            &trans          &trans  &trans    &trans  &trans      &to 1         &to 2         &to 3         &kp C_VOLUME_UP    &kp C_NEXT
+                                            &trans            &trans          &trans  &trans    &trans  &to 0       &trans        &trans
             >;
         };
     };
