@@ -38,11 +38,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp GRAVE    &kp COMMA       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp QUESTION                               &trans  &trans            &trans             &trans         &trans         &trans
-&kp AT_SIGN  &kp LEFT_BRACE  &kp DOUBLE_QUOTES     &kp SQT                &kp RIGHT_BRACE   &kp DOT                                    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans         &trans
-&kp HASH     &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp ASTERISK                               &trans  &kp RIGHT_SHIFT   &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
-&kp EXCL     &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp SLASH             &kp PRCNT    &trans  &trans  &trans            &trans             &trans         &trans         &trans
-                                                   &kp AMPS               &kp PLUS          &kp NON_US_BACKSLASH  &kp COLON    &trans  &trans  &trans            &trans
+&kp GRAVE    &kp COMMA       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp QUESTION                                   &trans  &trans            &trans             &trans         &trans         &trans
+&kp AT_SIGN  &kp LEFT_BRACE  &kp DOUBLE_QUOTES     &kp SQT                &kp RIGHT_BRACE   &kp DOT                                        &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans         &trans
+&kp HASH     &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp ASTERISK                                   &trans  &kp RIGHT_SHIFT   &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
+&kp EXCL     &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp SLASH             &lt 6 PERCENT    &trans  &trans  &trans            &trans             &trans         &trans         &trans
+                                                   &kp AMPS               &kp PLUS          &kp NON_US_BACKSLASH  &kp COLON        &trans  &trans  &trans            &trans
             >;
         };
 
@@ -88,7 +88,7 @@
 &trans            &trans  &kp NUMBER_1  &trans  &kp NUMBER_2  &kp NUMBER_3                       &kp O   &trans  &trans  &trans    &trans          &trans
 &kp TAB           &trans  &kp Q         &kp W   &kp E         &kp R                              &trans  &trans  &trans  &trans    &trans          &trans
 &kp LEFT_SHIFT    &trans  &kp A         &kp S   &kp D         &kp F                              &trans  &trans  &trans  &trans    &kp UP_ARROW    &trans
-&kp LEFT_CONTROL  &trans  &kp Z         &kp X   &kp C         &kp V         &kp V        &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
+&kp LEFT_CONTROL  &trans  &kp Z         &kp X   &kp C         &kp V         &trans       &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
                                         &kp B   &kp TAB       &kp LEFT_ALT  &kp SPACE    &trans  &trans  &trans  &trans
             >;
         };
