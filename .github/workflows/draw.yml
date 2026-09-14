@@ -1,0 +1,17 @@
+name: Draw keymap
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - config/*.keymap
+      - .github/workflows/draw.yml
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write
+    with:
+      keymap_patterns: config/lily58.keymap
+      commit_message: "docs(keymap): redraw layout diagram"
