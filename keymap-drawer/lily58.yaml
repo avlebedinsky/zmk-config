@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   navigation:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -294,7 +294,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   gaming:
   - {t: ▽, type: trans}
   - '5'
