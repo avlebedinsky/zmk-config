@@ -650,23 +650,23 @@ path.combo {
 </g>
 <g transform="translate(616, 42)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_new_tab</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_focus_…</tspan></text>
 </g>
 <g transform="translate(672, 35)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_next_t…</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_focus_…</tspan></text>
 </g>
 <g transform="translate(728, 28)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_prev_t…</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_focus_…</tspan></text>
 </g>
 <g transform="translate(784, 35)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_split_h</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_focus_…</tspan></text>
 </g>
 <g transform="translate(840, 49)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_rename…</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_close_…</tspan></text>
 </g>
 <g transform="translate(896, 56)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -698,19 +698,19 @@ path.combo {
 </g>
 <g transform="translate(616, 98)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_focus_…</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_new_tab</tspan></text>
 </g>
 <g transform="translate(672, 91)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_focus_…</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_next_t…</tspan></text>
 </g>
 <g transform="translate(728, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_focus_…</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_prev_t…</tspan></text>
 </g>
 <g transform="translate(784, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_focus_…</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_rename…</tspan></text>
 </g>
 <g transform="translate(840, 105)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -718,7 +718,7 @@ path.combo {
 </g>
 <g transform="translate(896, 112)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_new_wo…</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_close_…</tspan></text>
 </g>
 <g transform="translate(28, 168)" class="key trans keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -776,7 +776,7 @@ path.combo {
 </g>
 <g transform="translate(896, 168)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_worksp…</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_new_wo…</tspan></text>
 </g>
 <g transform="translate(28, 224)" class="key trans keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -832,7 +832,7 @@ path.combo {
 </g>
 <g transform="translate(840, 217)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_close_…</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;hd_split_h</tspan></text>
 </g>
 <g transform="translate(896, 224)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
