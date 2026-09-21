@@ -28,7 +28,7 @@
 &kp AT_SIGN  &kp LEFT_BRACE  &kp DOUBLE_QUOTES     &kp SQT                &kp RIGHT_BRACE   &kp TILDE                                      &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans         &trans
 &kp HASH     &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp ASTERISK                                   &trans  &kp RIGHT_SHIFT   &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
 &kp EXCL     &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp LC(R)             &lt 6 PERCENT    &trans  &trans  &trans            &trans             &trans         &trans         &trans
-                                                   &kp AMPS               &kp PLUS          &kp BSLH              &kp COLON        &trans  &trans  &trans            &trans
+                                                   &kp AMPS               &kp PLUS          &kp BSLH              &kp COLON        &trans  &trans  &trans            &to 0
             >;
         };
 
@@ -38,7 +38,7 @@
 &trans  &trans        &trans        &trans            &trans          &trans                    &kp BACKSPACE  &kp DELETE   &kp LC(Z)      &kp LC(Y)  &kp LC(X)  &kp ESC
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                    &kp LEFT       &kp DOWN     &kp UP_ARROW   &kp RIGHT  &kp LC(C)  &caps_word
 &trans  &trans        &trans        &trans            &trans          &trans  &trans    &trans  &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP    &kp END    &kp LC(V)  &trans
-                                    &trans            &trans          &trans  &trans    &trans  &trans         &trans       &trans
+                                    &trans            &trans          &trans  &trans    &trans  &trans         &trans       &to 0
             >;
         };
 
@@ -58,7 +58,7 @@
 &trans  &kp F10  &kp F9  &kp F8  &kp F7  &trans                    &trans  &trans           &trans             &trans         &trans         &trans
 &trans  &kp F11  &kp F6  &kp F5  &kp F4  &trans                    &trans  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
 &trans  &kp F12  &kp F3  &kp F2  &kp F1  &trans  &trans    &trans  &trans  &trans           &trans             &trans         &trans         &trans
-                         &trans  &trans  &trans  &trans    &trans  &trans  &trans           &trans
+                         &trans  &trans  &trans  &trans    &trans  &trans  &trans           &to 0
             >;
         };
 
