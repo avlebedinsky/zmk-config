@@ -57,7 +57,7 @@ layers:
   - SPACE
   - RET
   - symbol
-  - number
+  - RIGHT ALT
   - RIGHT GUI
   symbol:
   - '`'
@@ -91,10 +91,10 @@ layers:
   - $
   - '*'
   - {t: ▽, type: trans}
-  - RIGHT SHIFT
-  - RIGHT CONTROL
-  - RIGHT ALT
-  - RIGHT GUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '!'
   - <
@@ -203,10 +203,10 @@ layers:
   - ':'
   - <
   - {t: ▽, type: trans}
-  - LEFT GUI
-  - LEFT ALT
-  - LEFT CONTROL
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - +
   - '4'
@@ -234,7 +234,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: default, h: toggle}
   function:
   - {t: ▽, type: trans}
