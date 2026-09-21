@@ -34,10 +34,10 @@
 
         navigation {
             bindings = <
-&trans  &trans        &trans        &trans            &trans          &trans                    &trans         &trans       &trans         &trans     &trans     &kp PRINTSCREEN
-&trans  &trans        &trans        &trans            &trans          &trans                    &kp BACKSPACE  &kp DELETE   &kp LC(Z)      &kp LC(Y)  &kp LC(X)  &kp ESC
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                    &kp LEFT       &kp DOWN     &kp UP_ARROW   &kp RIGHT  &kp LC(C)  &caps_word
-&trans  &trans        &trans        &trans            &trans          &trans  &trans    &trans  &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP    &kp END    &kp LC(V)  &trans
+&trans  &trans        &trans        &trans            &trans          &trans                    &hd_new_tab     &hd_next_tab    &hd_prev_tab    &hd_split_h    &hd_rename_tab &kp PRINTSCREEN
+&trans  &trans        &trans        &trans            &trans          &trans                    &hd_focus_left  &hd_focus_down  &hd_focus_up  &hd_focus_right  &hd_close_tab  &hd_new_workspace
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                    &kp LEFT        &kp DOWN        &kp UP_ARROW  &kp RIGHT        &hd_goto       &hd_workspace_picker
+&trans  &trans        &trans        &trans            &trans          &trans  &trans    &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &hd_close_pane &kp DELETE
                                     &trans            &trans          &trans  &trans    &trans  &trans         &trans       &to 0
             >;
         };
@@ -80,6 +80,94 @@
 &bt BT_CLR      &trans        &trans        &trans            &trans          &trans  &trans    &trans  &trans      &to 1         &to 2         &to 3         &kp C_VOL_DN     &kp C_NEXT
                                             &trans            &trans          &trans  &trans    &trans  &trans      &trans        &to 0
             >;
+        };
+    };
+};
+
+/ {
+    macros {
+        hd_focus_left: hd_focus_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp H>;
+        };
+
+        hd_focus_down: hd_focus_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp J>;
+        };
+
+        hd_focus_up: hd_focus_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp K>;
+        };
+
+        hd_focus_right: hd_focus_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp L>;
+        };
+
+        hd_split_h: hd_split_h {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp MINUS>;
+        };
+
+        hd_new_tab: hd_new_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp C>;
+        };
+
+        hd_next_tab: hd_next_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp N>;
+        };
+
+        hd_prev_tab: hd_prev_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp P>;
+        };
+
+        hd_close_tab: hd_close_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp LS(X)>;
+        };
+
+        hd_rename_tab: hd_rename_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp LS(T)>;
+        };
+
+        hd_new_workspace: hd_new_workspace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp LS(N)>;
+        };
+
+        hd_workspace_picker: hd_workspace_picker {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp W>;
+        };
+
+        hd_close_pane: hd_close_pane {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp X>;
+        };
+
+        hd_goto: hd_goto {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp G>;
         };
     };
 };
