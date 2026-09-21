@@ -238,7 +238,19 @@ layers:
   - {t: default, h: toggle}
   function:
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F12
+  - F11
   - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F9
   - F8
   - F7
@@ -250,22 +262,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F11
+  - {t: ▽, type: trans}
   - F6
   - F5
   - F4
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F12
-  - F3
-  - F2
-  - F1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RIGHT SHIFT
@@ -275,9 +275,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F3
+  - F2
+  - F1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
