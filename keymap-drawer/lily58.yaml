@@ -125,11 +125,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&hd_new_tab'
+  - '&hd_next_tab'
+  - '&hd_prev_tab'
+  - '&hd_split_h'
+  - '&hd_rename_tab'
   - PRINTSCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -137,12 +137,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACKSPACE
-  - DELETE
-  - Ctl+Z
-  - Ctl+Y
-  - Ctl+X
-  - ESC
+  - '&hd_focus_left'
+  - '&hd_focus_down'
+  - '&hd_focus_up'
+  - '&hd_focus_right'
+  - '&hd_close_tab'
+  - '&hd_new_workspace'
   - {t: ▽, type: trans}
   - LEFT GUI
   - LEFT ALT
@@ -153,8 +153,8 @@ layers:
   - DOWN
   - UP ARROW
   - RIGHT
-  - Ctl+C
-  - '&caps_word'
+  - '&hd_goto'
+  - '&hd_workspace_picker'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -167,8 +167,8 @@ layers:
   - PAGE DOWN
   - PAGE UP
   - END
-  - Ctl+V
-  - {t: ▽, type: trans}
+  - '&hd_close_pane'
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
