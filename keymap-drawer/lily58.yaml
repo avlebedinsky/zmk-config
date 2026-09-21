@@ -238,18 +238,6 @@ layers:
   - {t: default, h: toggle}
   function:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - F10
   - F9
   - F8
@@ -268,16 +256,28 @@ layers:
   - F4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RIGHT SHIFT
-  - RIGHT CONTROL
-  - RIGHT ALT
-  - RIGHT GUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F12
   - F3
   - F2
   - F1
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RIGHT SHIFT
+  - RIGHT CONTROL
+  - RIGHT ALT
+  - RIGHT GUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -380,10 +380,10 @@ layers:
   - MUTE
   - PLAY PAUSE
   - {t: ▽, type: trans}
-  - LEFT GUI
-  - LEFT ALT
-  - LEFT CONTROL
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: function, h: toggle}
