@@ -119,19 +119,19 @@
         hd_new_tab: hd_new_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(B) &kp F1>;
+            bindings = <&kp LC(B) &kp F5>;
         };
 
         hd_next_tab: hd_next_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(B) &kp F2>;
+            bindings = <&kp LC(B) &kp F6>;
         };
 
         hd_prev_tab: hd_prev_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(B) &kp F3>;
+            bindings = <&kp LC(B) &kp F7>;
         };
 
         hd_close_tab: hd_close_tab {
