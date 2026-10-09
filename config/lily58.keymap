@@ -35,7 +35,7 @@
         navigation {
             bindings = <
 &trans  &trans        &trans        &trans            &trans          &trans                    &hd_focus_left  &hd_focus_down  &hd_focus_up  &hd_focus_right  &hd_close_pane &kp PRINTSCREEN
-&trans  &trans        &trans        &trans            &trans          &trans                    &hd_new_tab     &hd_next_tab    &hd_prev_tab    &hd_rename_tab &hd_close_tab  &hd_close_workspace
+&trans  &trans        &trans        &trans            &trans          &trans                    &hd_new_tab     &hd_prev_tab    &hd_next_tab    &hd_rename_tab &hd_close_tab  &hd_close_workspace
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                    &kp LEFT        &kp DOWN        &kp UP_ARROW  &kp RIGHT        &hd_goto       &hd_new_workspace
 &trans  &trans        &trans        &trans            &trans          &trans  &trans    &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &hd_split_h    &kp DELETE
                                     &trans            &trans          &trans  &trans    &trans  &trans         &trans       &to 0
@@ -122,13 +122,13 @@
             bindings = <&kp LC(B) &kp F5>;
         };
 
-        hd_next_tab: hd_next_tab {
+        hd_prev_tab: hd_prev_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(B) &kp F6>;
         };
 
-        hd_prev_tab: hd_prev_tab {
+        hd_next_tab: hd_next_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(B) &kp F7>;
